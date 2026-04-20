@@ -257,7 +257,7 @@ export default function App() {
   }, [pessoas, contratos])
 
   const s = {
-    app: { background: BRAND.bg, height: '100vh', fontFamily: "'Segoe UI', sans-serif", fontSize: 13, color: BRAND.text, display: 'flex', flexDirection: 'column', overflow: 'hidden' },
+app: { background: BRAND.bg, width: '100vw', height: '100vh', fontFamily: "'Segoe UI', sans-serif", fontSize: 13, color: BRAND.text, display: 'flex', flexDirection: 'column', overflow: 'hidden', position: 'fixed', top: 0, left: 0 },
     topbar: { display: 'flex', alignItems: 'center', gap: 10, padding: '10px 20px', borderBottom: `1px solid ${BRAND.border}`, background: BRAND.bgHeader, zIndex: 100, flexShrink: 0 },
     canvasWrap: { flex: 1, overflow: 'auto', position: 'relative', background: BRAND.bg },
     canvas: { position: 'relative', width: 4000, height: 3000 },
