@@ -467,4 +467,4 @@ function MPecas({ct,onAdd,onDel,onClose,inp,btn,btnG,muted}){
     </div>
     <button style={btn} onClick={onClose}>Fechar</button>
   </>
-}
+}console.log("ALTERACAO TESTE PUSH")
